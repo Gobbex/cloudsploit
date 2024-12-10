@@ -136,6 +136,7 @@ module.exports = {
                     title: plugin.title,
                     description: plugin.description,
                     resource: result.resource || 'N/A',
+                    severity: plugin.severity || 'N/A',
                     region: result.region || 'Global',
                     status: exchangeStatusWord(result),
                     message: result.message
